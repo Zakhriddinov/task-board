@@ -1,0 +1,43 @@
+@use "../../../styles/index.scss";
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  line-height: 13px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+
+  &--gray {
+    background: #fafffc;
+    border: 1px solid #ebf3ef;
+    padding: 6px 7px;
+    color: var(--color-black);
+    svg {
+      margin-right: 6px;
+    }
+  }
+  &--purple {
+    background-color: #f6f2f6;
+    width: 86px;
+    height: 24px;
+    border: none;
+    color: var(--color-purple);
+  }
+  &--blue {
+    background-color: var(--bg-blue);
+    color: var(--color-blue);
+    width: 86px;
+    height: 24px;
+  }
+  &--red {
+    background-color: var(--bg-red);
+    color: var(--color-red);
+    width: 86px;
+    height: 24px;
+  }
+}

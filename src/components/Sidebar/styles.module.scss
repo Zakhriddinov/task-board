@@ -1,0 +1,16 @@
+@use "../../styles/index.scss";
+
+.sidebar {
+  // wrapper styles
+  background-color: white;
+  max-width: 200px;
+  width: 100%;
+  height: 100vh;
+  box-shadow: -1px 0px 16px rgba(0, 0, 0, 0.06);
+
+  // position
+  position: fixed;
+  top: 44px;
+  left: 0;
+  bottom: 0;
+}
